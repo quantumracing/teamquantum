@@ -51,7 +51,8 @@
                         Youtube
                     </div>
                 </a>
-                <a href='https://open.spotify.com/show/3dV4kngxN33VlFsE6ntPnn?si=L6d9vlMFS5KqKfSpT8oTuA&dl_branch=1' target='_blank'>
+                <a href='https://open.spotify.com/show/3dV4kngxN33VlFsE6ntPnn?si=L6d9vlMFS5KqKfSpT8oTuA&dl_branch=1'
+                    target='_blank'>
                     <div class="list-item">
                         Spotify
                     </div>
@@ -70,6 +71,13 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
 
+
+    html,
+    body {
+        margin: 0;
+        padding: 0
+    }
+
     #main {
         display: none;
     }
@@ -81,7 +89,6 @@
     .bg2 {
         display: flex;
         flex-direction: column;
-        height: 100vh;
         width: 100vw;
         background: linear-gradient(rgb(8, 0, 85), rgb(103, 86, 255));
         display: flex;
@@ -99,6 +106,7 @@
         position: relative;
         text-align: center;
         transition: transform 0.3s ease-out 100ms;
+        margin-top: 20px;
     }
 
     .blob2 img {
@@ -121,6 +129,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 50px;
     }
 
     .list-item {
@@ -145,14 +154,7 @@
         background-color: white;
         color: rgb(22, 0, 73);
     }
-</style>
 
-
-<style>
-    body {
-        margin: 0;
-        padding: 0
-    }
 
     .bg {
         height: 100vh;
